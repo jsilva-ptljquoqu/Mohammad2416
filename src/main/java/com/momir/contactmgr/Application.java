@@ -28,8 +28,8 @@ public class Application {
     public static void main(String[] args) {
 
         Contact contact = new Contact.ContactBuilder("Mohammad", "Mirzakhani")
-                .withEmail("m.mirzakhani@rightel.com")
-                .withPhone(9177687186L)
+                .withEmail("mohammad.mirzakhany@gmail.com.com")
+                .withPhone(000000000L)
                 .build();
 
         System.out.println(contact);
@@ -47,7 +47,7 @@ public class Application {
 
         //Update
         Contact c = findContactById(id);
-        c.setFirstName("Zahra");
+        c.setFirstName("Ali");
         update(c);
 
         System.out.println("----Update-----");
